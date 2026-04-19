@@ -11850,10 +11850,8 @@ local function Setup(config)
 				end
 			end)
 		end)
-	end
 	while not deadsecHUB._loaderFaded do task.wait(0.05) end
 	Window.Root.Enabled = true
-	end
 
 	return {
 		Lib = deadsecHUB,
